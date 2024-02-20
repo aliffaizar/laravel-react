@@ -107,10 +107,10 @@ export default function Login({ status, canResetPassword }) {
                   Don't have an account yet?
                 </span>
                 <Link
-                  className='hover:text-teal-500 dark:hover:text-teal-600'
-                  href='/regiter'
+                  className='underline hover:text-teal-500 dark:hover:text-teal-600'
+                  href={route('register')}
                 >
-                  Sign up
+                  Register
                 </Link>
               </p>
               <Button className='ms-4 px-6' disabled={processing}>
